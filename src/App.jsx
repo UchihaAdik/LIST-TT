@@ -87,7 +87,6 @@ const App = () => {
       
       {movies && (
         <DataGrid
-          style={{ color: darkMode ? "#fff" : "#333" }}
           rows={movies}
           columns={columns}
           pageSize={5}
